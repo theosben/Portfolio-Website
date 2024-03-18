@@ -320,6 +320,7 @@
     justify-content: center;
     position: relative;
     gap: 0.5rem;
+    max-width: 40%;
 }
 
 .pc_left_panel img {
