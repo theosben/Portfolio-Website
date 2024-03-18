@@ -1,0 +1,47 @@
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+=-=-=-=-=-=- Header section -=-=-=-=-=-=
+
+Ben Burgess
+Front-End Web Developer
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+=-=-=-=-=-=- About Me -=-=-=-=-=-=
+
+Hello! I am Ben Burgess, a front-end web developer living in Manchester, UK. I've always been passionate about technology and understanding how things work, ever since I was a kid. I've also always been passionate about creativity, and studied music performance and music composition when I was younger. These are the things that make me who I am today; A blend of technical and creative approaches, always thinking dynamically to overcome challenges and create new things.
+
+I've been working for the last seven years as a purchasing supervisor, which has been a demanding role. But the role has also given me strong core skills - to always be the best I can be at what I do, to always improve, to always be professional, calm and reliable, to be self-disciplined to work alone effectively and to have the right attitude and skills to lead a team. I put these core skills into everything I do, and it's what makes me... me!
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+=-=-=-=-=-=- Small section - skills -=-=-=-=-=-=
+• JavaScript
+• HTML
+• CSS
+• C#
+• VSCode / Visual Studio
+• Photoshop
+• Well-developed work ethic
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+=-=-=-=-=-=- Projects -=-=-=-=-=-=
+
+Structure of each project will look like this:
+
+• Picture showing preview of project
+• Header of project - such as "TSG mirror website"
+• Short description of project - such as "I created this website as a way to test my HTML, CSS and Javascript ability. I decided to replicate, in my own way, my current company's website. I wanted to make a point of avoiding looking into how they have structured the page, and instead make sure the entire structural design was of my own creation. Original website for comparison can be found here[link to TSG website]"
+• Highlights of project - such as:
+    • Sticky navbar with JQuery animation
+    • Fade in/out quotes section
+    • Infinite carousel
+Github link
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+=-=-=-=-=-=- Contact and CV -=-=-=-=-=-=
+
+Same as CV, minus phone number:
+• benburgess21@hotmail.co.uk (consider implementing contact form)
+• linkedin.com/in/benburgessdev
+• Manchester, SK5
+
+See my CV here:
+MAKE SURE CV ON PORTFOLIO DOES NOT FEATURE PHONE NUMBER

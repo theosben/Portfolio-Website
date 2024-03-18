@@ -1,0 +1,64 @@
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+=-=-=-=-=-=- FIRST PASS -=-=-=-=-=-=
+
+=== What content needs to be displayed? ===
+
+-- PROJECTS --
+• Right now I don't have any professional projects, that will come with time. Instead, focus on the personal projects I've been working on.
+• Most important are the larger projects, such as the lotto app I'm currently working on, and the heat assessment calculator I'm planning.
+• The mini-code snippets are a great addition, but before I include them I MUST personalise them, not just the copy-paste format they current consist of.
+• Remember, everything MUST be coded by me, in my style, using assets I have directly sourced.
+•• ADDITIONAL: The projects I've covered in courses I've done can be used for a portfolio, but be clear about the source of these projects.
+
+-- SKILLS AND LANGUAGES --
+• This is specifically for coding skills, things that are applicable directly to web development. Try to avoid generic phrases here, go specific.
+
+-- BIO / ABOUT --
+• This can be a bit more personal than a CV or LinkedIn profile would be. Don't be afraid to show some personality, as a portfolio doesn't just showcase your work, but also gives you a chance to show what kind of a person you are, what your artistic flair can be like, and what your personal interests and goals are. Remember, you are advertising you as a brand, not just you as someone who can code.
+• Contact information can be included here, or even elsewhere depending on the artistic styling of the portfolio itself.
+• Make sure that what you put down gives a clear and positive insight into who I am and what I'm about, make sure I come across as someone who should be hired.
+
+-- EXPERIENCE --
+• Obviously not much related to web development to talk about here, so talk about my history at TSG for the past 5 years, and try to use that as a way of showcasing my abilities as a person, being able to talk to many departments, manage and organise multiple projects at once, and so on.
+
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+=-=-=-=-=-=- PROJECTS IN DETAIL -=-=-=-=-=-=
+
+=== What projects should I aim to complete and place in my portfolio? ===
+
+IMPORTANT:
+• Lotto number generator app
+    - This is currently in development, but is absolutely crucial for a solid portfolio. Potentially finish this project once I've done the others, so I have more experience to do it properly.
+• Heat assessment calculator app
+    - Only develop this once the lotto number generator app is completed, or switch to if I need a break.
+• Form validation
+    - I already have code for contact form validation (sec 37), and multiple designs for login forms (25, 30, 9). Merge this together into a good form and validation showcase.
+• Calculator
+    - I already have the code for this in mini code section 29, but personalise the design and coding to match my style.
+• Mirror  website
+    - Pick a website that showcases a good mix of HTML, CSS and ideally JS, and try to replicate it to the best of my ability.
+• Mini codes
+    - Probably best to link to codepen or github for this, but a small display of some of the mini codes I have already worked on, but must be stylised in my own way before adding.
+• Course work
+    - Fine as they are, but make sure to indicate that the works are following a Udemy course, and are more to highlight my completion and comprehension of the elements used for those projects, than of my own ability to design and create them.
+        - Forkify project
+        - Mapty project
+        - Bankist, potentially
+
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+=-=-=-=-=-=- PORTFOLIO DETAILS I LOVE -=-=-=-=-=-=
+
+=== Some notes on other people's portfolios that I may want to use for myself ===
+
+• I like the idea of including all the information that's possible on one landing page, rather than making the use go through multiple pages to see everything
+• Jack Tomaszewski - I really like the design with the left-hand panel, and could use that panel as a way of including my bio, contact details and soft skills
+• When making it reactive, I again like the way that page just follows in a strip.
+• I also really like Jack's design of the portfolio, although I would keep it more simplistic and brief, with the option to learn more about the project.
+• Brittany Chiang - I really like the flow of her portfolio, and it works well in 4k, 1080p and mobile views. I'm not as keen on the colours and certain aspects of the design, but for a clean, cool layout there is a lot to love here.
+• Adenekan Wonderful - I love the layout of the projects section. Now, I HATE the custom cursor and all that, but the way it has the hover for title, tagline and langauges used, and then the panel that opens up with the expanded information is fantastic, and I really want to use this for my own portfolio. It works particularly well in mobile view.
+• Anurag Hazra - While Anurag has a really nice portfolio, one thing in particular I like is the case study layouts. This section is so well laid out on desktop, but could use some love for mobile.
+• Kem Kem has a very well balanced design that is both fun, cool, and professional. The Dark theme and white writing is excellent when paired with colour to make sections pop. As far as visual design goes, this might be one of my favourites.

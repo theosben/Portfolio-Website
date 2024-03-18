@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Poppins:wght@300;400&display=swap');
+
+:root {
+    --header-bg-colour: #1e1e22;
+    --header-text-colour: #fff;
+    --header-block-one-colour: #ffb510;
+    --header-block-two-colour: #50ff4a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header_container {
+    width: 100%;
+    background: var(--header-bg-colour);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_container .box .title {
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    height: 50px;
+}
+
+.header_container .box {
+    margin: 100px 0;
+}
+
+.header_container .box .title .block {
+    width: 0%;
+    height: inherit;
+    display: flex;
+    background: var(--header-block-one-colour);
+    position: absolute;
+    animation: mainBlock 2s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
+}
+
+.header_container .box .title h1 {
+    font-family: "Poppins", sans-serif;
+    color: var(--header-text-colour);
+    font-size: 3em;
+    opacity: 0;
+    animation: mainFadeIn 2s forwards;
+    animation-delay: 1.6s;
+    position: relative;
+}
+
+.header_container .box .role {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.header_container .box .role .block {
+    width: 0%;
+    height: inherit;
+    background: var(--header-block-two-colour);
+    position: absolute;
+    animation: secBlock 2s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
+    animation-delay: 2s;
+    display: flex;
+}
+
+.header_container .box .role p {
+    animation: secFadeIn 2s forwards;
+    animation-delay: 3.2s;
+    opacity: 0;
+    font-weight: 400;
+    font-family: "Lato", sans-serif;
+    color: var(--header-text-colour);
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+@keyframes mainBlock {
+    0% {
+        width: 0%;
+        left: 0;
+    }
+    50% {
+        width: 100%;
+        left: 0;
+    }
+    100% {
+        width: 0;
+        left: 100%;
+    }
+}
+
+@keyframes secBlock {
+    0% {
+        width: 0%;
+        left: 0;
+    }
+    50% {
+        width: 100%;
+        left: 0;
+    }
+    100% {
+        width: 0;
+        left: 100%;
+    }
+}
+
+@keyframes mainFadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes secFadeIn {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 0.75;
+    }
+}
