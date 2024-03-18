@@ -1,18 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Poppins:wght@300;400&display=swap');
 
 :root {
-    --header-bg-colour: #1e1e22;
-    --header-text-colour: #e9e9e9;
+    --header-bg-colour: #1b242f;
+    --header-h1-colour: #00f7ff;
+    --header-text-colour: #f1f1f1;
     --header-block-one-colour: #ffb510;
     --header-block-two-colour: #ff7b00;
-    --about-bg-colour: #e9e9e9;
-    --about-text-colour: #1e1e22;
+    --about-bg-colour: #f1f1f1;
+    --about-h1-colour: #e31b6d;
+    --about-text-colour: #1b242f;
+    --skills-bg-colour: #f1f1f1;
+    --skills-h1-colour: #e31b6d;
+    --skills-ul-bg-colour: #1b242f;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.container {
+    max-width: 1250px;
+    padding: 0 1em;
 }
 
 /* NOTE: HEADER SECTION */
@@ -48,7 +58,7 @@
 
 .header__section .box .title h1 {
     font-family: "Poppins", sans-serif;
-    color: var(--header-text-colour);
+    color: var(--header-h1-colour);
     font-size: 3em;
     opacity: 0;
     animation: mainFadeIn 2s forwards;
@@ -146,7 +156,6 @@
 }
 
 .about__section .container {
-    max-width: 1200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -154,17 +163,93 @@
     margin-top: 4em;
     margin-bottom: 4em;
     gap: 2em;
-    padding: 0 1em;
 }
 
 .about__section .container h1 {
-    font-family: sans-serif;
+    font-family: "Lato", sans-serif;
     font-size: 2em;
-    color: var(--about-text-colour);
+    color: var(--about-h1-colour);
 }
 
 .about__section .container p {
-    font-family: sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 1.5em;
     color: var(--about-text-colour);
 }
+
+/* NOTE: SKILLS SECTION */
+
+.skills__section {
+    width: 100%;
+    background: var(--skills-bg-colour);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills__section .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4em;
+    margin-bottom: 4em;
+    gap: 2em;
+}
+
+.skills__section .container h1 {
+    font-family: "Lato", sans-serif;
+    font-size: 2em;
+    color: var(--skills-h1-colour);
+}
+
+.skills_ul_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills_ul_container li {
+    font-family: "Roboto", sans-serif;
+    padding: 15px;
+    color: #fff;
+    background: var(--skills-ul-bg-colour);
+    list-style: none;
+    margin: 5px;
+    cursor: default;
+    transition: all 0.25s;
+    position: relative;
+}
+
+.skills_ul_container li:hover {
+    transform: translate(20px);
+}
+
+.skills_ul_container li::before, li::after {
+    content: "";
+    position: absolute;
+    background: var(--skills-ul-bg-colour);
+    transition: all 0.25s;
+}
+
+.skills_ul_container li::before {
+    width: 20px;
+    height: 100%;
+    top: 0;
+    left: -25px;
+}
+
+.skills_ul_container li::after {
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+}
+
+.skills_ul_container li:hover::before, li:hover::after {
+    background: #00ffff;
+    box-shadow: 0 0 10px aqua;
+}
+
+/* NOTE: PROJECTS SECTION */
+
