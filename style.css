@@ -7,20 +7,20 @@
     --header-block-one-colour: #ffb510;
     --header-block-two-colour: #ff7b00;
     --about-bg-colour: #f1f1f1;
-    --about-h2-colour: #e31b6d;
     --about-text-colour: #1b242f;
     --skills-bg-colour: #f1f1f1;
-    --skills-h2-colour: #e31b6d;
     --skills-ul-bg-colour: #1b242f;
     --skills-li-hover-colour: #00f7ff;
     --projects-bg-colour: #1b242f;
     --projects-card-bg-colour: #1e2835;
     --projects-card-bg-colour-hover: #242f3d;
     --projects-card-bg-colour-hover-shadow: #1a2029;
-    --projects-h2-colour: #e31b6d;
     --projects-h3-colour: #00f7ff;
     --projects-text-colour: #f1f1f1;
     --projects-a-colour: #e31b6d;
+    --footer-text-colour: #1b242f;
+    --footer-a-colour: #e31b6d;
+    --h2-colour: #e31b6d;
 }
 
 * {
@@ -177,7 +177,7 @@
 .about__section .container h2 {
     font-family: "Lato", sans-serif;
     font-size: 2rem;
-    color: var(--about-h2-colour);
+    color: var(--h2-colour);
 }
 
 .about__section .container p {
@@ -209,7 +209,7 @@
 .skills__section .container h2 {
     font-family: "Lato", sans-serif;
     font-size: 2rem;
-    color: var(--skills-h2-colour);
+    color: var(--h2-colour);
 }
 
 .skills_ul_container {
@@ -283,7 +283,7 @@
 .projects__section .container h2 {
     font-family: "Lato", sans-serif;
     font-size: 2rem;
-    color: var(--projects-h2-colour);
+    color: var(--h2-colour);
 }
 
 .projects_grid_container {
@@ -373,4 +373,77 @@
         grid-template: 1fr / 1fr;
         gap: 1rem;
     }
+}
+
+/* NOTE: CONTACT SECTION */
+
+.contact__section {
+    width: 100%;
+    background: var(--skills-bg-colour);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact__section .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    gap: 2rem;
+}
+
+.contact__section .container h2 {
+    font-family: "Lato", sans-serif;
+    font-size: 2rem;
+    color: var(--h2-colour);
+}
+
+.contact__section .container li, .contact__section .container li a {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+    color: var(--about-text-colour);
+    list-style: none;
+    line-height: 2.5rem;
+    text-decoration: none;
+}
+
+.contact__section .container li a:hover {
+    text-decoration: underline;
+}
+
+/* NOTE: FOOTER */
+
+footer {
+    width: 100%;
+    background: var(--skills-bg-colour);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .container {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    align-content: end;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+footer p, footer a {
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    color: var(--footer-text-colour);
+}
+
+footer a {
+    color: var(--footer-a-colour);
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
