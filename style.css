@@ -12,6 +12,9 @@
     --skills-bg-colour: #f1f1f1;
     --skills-h1-colour: #e31b6d;
     --skills-ul-bg-colour: #1b242f;
+    --skills-li-hover-colour: #00f7ff;
+    --projects-bg-colour: #1b242f;
+    --projects-h1-colour: #e31b6d;
 }
 
 * {
@@ -247,9 +250,41 @@
 }
 
 .skills_ul_container li:hover::before, li:hover::after {
-    background: #00ffff;
-    box-shadow: 0 0 10px aqua;
+    background: var(--skills-li-hover-colour);
+    box-shadow: 0 0 10px var(--skills-li-hover-colour);
 }
 
 /* NOTE: PROJECTS SECTION */
 
+.projects__section {
+    width: 100%;
+    background: var(--projects-bg-colour);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects__section .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4em;
+    margin-bottom: 4em;
+    gap: 2em;
+}
+
+.projects__section .container h1 {
+    font-family: "Lato", sans-serif;
+    font-size: 2em;
+    color: var(--skills-h1-colour);
+}
+
+.projects_grid_container {
+    display: grid;
+    width: 100%;
+    align-items: space-between;
+    justify-content: center;
+    grid-template: 1fr / 1fr 1fr;
+    gap: 2em;
+}
