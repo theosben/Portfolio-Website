@@ -47,7 +47,7 @@ h2 {
 }
 
 .header__section .box {
-    margin: 7rem 0;
+    margin: 10rem 0;
 }
 
 .header__section .box .title .block {
@@ -63,7 +63,7 @@ h2 {
     font-family: "Poppins", sans-serif;
     color: var(--bright-blue-colour);
     font-size: 4rem;
-    font-weight: 300;
+    font-weight: 400;
     opacity: 0;
     animation: mainFadeIn 2s forwards;
     animation-delay: 1.6s;
@@ -448,4 +448,21 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+/* NOTE: SECTION DIVIDER BLUE LINES */
+
+.header__section, .skills__section, .projects__section {
+    border-bottom: 3px var(--bright-blue-colour) solid;
+    position: relative;
+}
+
+.header__section::before, .skills__section::before, .projects__section::before {
+    width: 100%;
+    position: absolute;
+    height: 1px;
+    content: "";
+    background-color: var(--bright-blue-colour);
+    bottom: 1px;
+    z-index: 1;
 }
