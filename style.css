@@ -56,7 +56,7 @@ h2 {
     display: flex;
     background: var(--header-block-colour);
     position: absolute;
-    animation: mainBlock 2s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
+    animation: mainBlock 1s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
 }
 
 .header__section .box .title h1 {
@@ -65,8 +65,8 @@ h2 {
     font-size: 4rem;
     font-weight: 400;
     opacity: 0;
-    animation: mainFadeIn 2s forwards;
-    animation-delay: 1.6s;
+    animation: mainFadeIn 1s forwards;
+    animation-delay: 0.8s;
     position: relative;
     text-shadow: 0 0 5px var(--bright-blue-colour);
 }
@@ -85,14 +85,14 @@ h2 {
     height: inherit;
     background: var(--header-block-colour);
     position: absolute;
-    animation: secBlock 2s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
-    animation-delay: 2s;
+    animation: secBlock 1.5s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
+    animation-delay: 1s;
     display: flex;
 }
 
 .header__section .box .role p {
     animation: secFadeIn 2s forwards;
-    animation-delay: 3.2s;
+    animation-delay: 2.1s;
     opacity: 0;
     font-weight: 400;
     font-family: "Lato", sans-serif;
