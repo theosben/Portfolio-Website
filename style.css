@@ -276,11 +276,10 @@ h2 {
     align-items: space-between;
     justify-content: center;
     grid-template: 1fr / 1fr 1fr;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .project_card {
-    /* max-width: 609px; */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -374,7 +373,7 @@ h2 {
 @media (max-width: 1050px) {
     .projects_grid_container {
         grid-template: 1fr / 1fr;
-        gap: 1rem;
+        gap: 2rem;
     }
 }
 
