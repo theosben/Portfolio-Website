@@ -298,6 +298,7 @@ h2 {
 
 .project_card>a {
     min-width: 40%;
+    max-width: 40%;
     display: flex;
     align-items: stretch;
     justify-content: center;
@@ -381,6 +382,11 @@ h2 {
     .project_card {
         flex-direction: column;
     }
+
+    .project_card>a {
+        min-width: 100%;
+        max-width: 100%;
+    }
 }
 
 /* NOTE: CONTACT SECTION */
@@ -414,6 +420,12 @@ h2 {
 
 .contact__section .container li a:hover {
     text-decoration: underline;
+}
+
+@media (max-width: 400px) {
+    .contact__section .container li, .contact__section .container li a {
+        font-size: 1.17rem;
+    }
 }
 
 /* NOTE: FOOTER */
